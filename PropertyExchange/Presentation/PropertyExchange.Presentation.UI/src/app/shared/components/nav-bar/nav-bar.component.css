@@ -1,0 +1,14 @@
+.bg-primary {
+    background-color: #13293e!important;
+}
+
+.userFormSelect{
+    -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+}

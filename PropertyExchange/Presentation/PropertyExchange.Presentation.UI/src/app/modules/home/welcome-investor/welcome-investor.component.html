@@ -1,0 +1,201 @@
+<div class="pt-4">
+    <div *ngIf="authService.currentUserValue && !doesUserDetailsExist" class="text-center">
+        Please <a [routerLink]="['/AuthenticateUser/UserDetails']" routerLinkActive="router-link-active">complete
+            your registration</a> by entering a few details
+    </div>
+
+    <div class="container-fluid">
+        <section class="py-3 py-md-5 py-xl-8">
+            <div class="container">
+                <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+                    <div class="col-12 col-lg-6 col-xl-6">
+                        <div class="row justify-content-xl-center">
+
+                            <div class="col-12 col-xl-11">
+                                <h2 class="h1 mb-3">Hello Investor!</h2>
+                                <p class="lead fs-4 text-secondary mb-3">We are more than happy to have you onboard.</p>
+                                <p class="mb-5">For a hassle free investing, please browse through offerings that our
+                                    team has shortlisted after conducting rigorous due diligence, market review, rental
+                                    yields, target returns and legal title.</p>
+                                <button class="btn bg-primary text-white mr-1" style="margin-bottom: 2%;"
+                                    [routerLink]="['/Properties/All-Properties']"
+                                    routerLinkActive="router-link-active">View Properties</button>
+                                <!-- <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                <div class="col-12 col-md-6">
+                  <div class="d-flex">
+                    <div class="me-4 text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 class="mb-3">Versatile Brand</h4>
+                      <p class="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="d-flex">
+                    <div class="me-4 text-primary">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 class="mb-3">Digital Agency</h4>
+                      <p class="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-6">
+                        <img class="img-fluid rounded" loading="lazy" src="./assets/Images/WelcomeInvestorPic.jpeg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div class="section" id="about">
+    <div class="jumbotron container-fluid">
+        <div class="row">
+            @if(holdingsExist){
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card box" data-aos="fade-up" data-aos-offset="10" style="padding: 20px; height: 100%;">
+                    <div class="pt-2">
+                        <div class="container-fluid">
+                            <h3 class="h3 mb-4 text-center">Investment Summary</h3>
+                            <br>
+                            <p class="mb-5 container">
+                                <strong>Total Investment: </strong> {{investmentSummary.TotalInvestment |
+                                currency:'INR'}}
+                            </p>
+                            <p class="mb-5 container">
+                                <strong>Current Value: </strong> {{investmentSummary.CurrentValue | currency:'INR'}}
+                            </p>
+                            <p class="mb-5 container">
+                                <strong>Returns: </strong>
+                                @if(investmentSummary.CurrentValue > investmentSummary.TotalInvestment){
+
+                                <span style="color:green"> {{investmentSummary.TotalReturns | currency:'INR'}}
+                                    (+{{ investmentSummary.ReturnPercentage | percent:'1.2-2'}}) <i
+                                        class="fa fa-chevron-circle-up" style="color:green;"
+                                        aria-hidden="true"></i></span>
+                                }
+                                @else if (investmentSummary.CurrentValue < investmentSummary.TotalInvestment){
+
+                                <span style="color: red;"> {{investmentSummary.TotalReturns | currency:'INR'}}
+                                    ({{ investmentSummary.ReturnPercentage | percent:'1.2-2'}}) <i
+                                        class="fa fa-chevron-circle-down" style="color:red"
+                                        aria-hidden="true"></i></span>
+                                }
+                                @else{
+                                0%
+                                }
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="card box" data-aos="fade-up" data-aos-offset="10" style="padding: 20px; height: 100%;">
+                    <div class="pt-2">
+                        <div class="container-fluid">
+                            <h3 class="h3 mb-4 text-center">My Investments</h3>
+                            <p-table #dt1 [value]="myInvestments" dataKey="id" styleClass="p-datatable-striped"
+                                [tableStyle]="{ 'min-width': '50rem' }" [resizableColumns]="true" [paginator]="true"
+                                [rows]="10" [showCurrentPageReport]="true"
+                                currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
+                                <ng-template pTemplate="header">
+                                    <tr>
+                                        <th pSortableColumn="PropertyName" class="fixed-column">Name<p-sortIcon
+                                                field="PropertyName"></p-sortIcon>
+                                        </th>
+                                        <th>Quantity x Price</th>
+                                        <th pSortableColumn="InvestmentValue">Invested Value<p-sortIcon
+                                                field="InvestmentValue">
+                                            </p-sortIcon>
+                                        </th>
+                                        <th pSortableColumn="CurrentValue">Current Value<p-sortIcon
+                                                field="CurrentValue">
+                                            </p-sortIcon>
+                                        </th>
+                                        <th pSortableColumn="TotalReturns">Total Returns<p-sortIcon
+                                                field="TotalReturns">
+                                            </p-sortIcon>
+                                        </th>
+                                        <th pSortableColumn="ReturnsPercentage">% Change<p-sortIcon
+                                                field="ReturnsPercentage">
+                                            </p-sortIcon>
+                                        </th>
+                                    </tr>
+                                </ng-template>
+                                <ng-template pTemplate="body" let-product>
+                                    <tr style="cursor: pointer;" (click)="onPropertyRowClick(product.PropertyID)">
+                                        <td class="fixed-column">{{ product.PropertyName }}</td>
+                                        <td>{{ product.Quantity }} x {{ product.Price | currency:'INR'}}</td>
+                                        <td>{{ product.InvestmentValue | currency:'INR'}}</td>
+                                        <td>{{ product.CurrentValue | currency:'INR' }}</td>
+                                        @if(product.CurrentValue > product.InvestmentValue){
+                                        <td style="color:green">
+                                            +{{ product.TotalReturns | number : '1.2-2' | currency:'INR'}}
+                                            }
+                                            @else if (product.CurrentValue < product.InvestmentValue){ <td
+                                                style="color: red;">
+                                                {{ product.TotalReturns | currency:'INR'}}
+                                                }
+
+                                                @if(product.CurrentValue > product.InvestmentValue){
+                                        <td style="color:green">
+                                            (+{{ product.ReturnsPercentage | percent:'1.2-2'}}) <i
+                                                class="fa fa-chevron-circle-up" style="color:green;"
+                                                aria-hidden="true"></i></td>
+                                        }
+                                        @else if (product.CurrentValue < product.InvestmentValue){ <td
+                                            style="color: red;">
+                                            ({{ product.ReturnsPercentage | percent:'1.2-2'}}) <i
+                                                class="fa fa-chevron-circle-down" style="color:red"
+                                                aria-hidden="true"></i></td>
+                                            }
+                                            @else{
+                                            <td>0%</td>
+                                            }
+                                    </tr>
+                                </ng-template>
+                            </p-table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="card box" data-aos="fade-up" data-aos-offset="10" style="padding: 20px; height: 100%;">
+                    <div class="pt-2">
+                        <div class="container-fluid">
+                            <h3 class="h3 mb-4 text-center">Portfolio Weightage</h3>
+                            <p-chart type="pie" [data]="data" [options]="chartOptions"></p-chart>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- <div class="section text-center" id="about">
+    <div class="jumbotron container text-center">
+        <div class="row text-center">
+            
+                <div class="text-center" data-aos="fade-up" data-aos-offset="10" style="padding: 20px;">
+                    <app-what-our-users-are-saying></app-what-our-users-are-saying>
+                </div>
+        </div>
+    </div>
+</div> -->

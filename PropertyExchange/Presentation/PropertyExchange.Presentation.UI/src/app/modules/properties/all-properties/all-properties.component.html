@@ -1,0 +1,88 @@
+<!-- <p-progressSpinner class="row justify-content-center" ariaLabel="loading"></p-progressSpinner> -->
+<div class="pt-4">
+<div class="container-fluid card">
+    <p-table #dt1 [value]="properties" dataKey="id"  styleClass="p-datatable-striped" [tableStyle]="{ 'min-width': '50rem' }"
+    [resizableColumns]="true"
+    [paginator]="true"
+    [rows]="10"
+    [showCurrentPageReport]="true"
+    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+    [globalFilterFields]="['Name', 'Location', 'PropertyType']"
+    >
+    <ng-template pTemplate="caption" class="float-right">
+        <div class="flex" style="height: 60%;">
+            <span class="p-input-icon-left ml-auto">
+                <i class="fa fa-search"></i>
+                <input pInputText type="text" [(ngModel)]="inputValue" (ngModelChange)="filter(dt1)" placeholder="Enter Name/Location/Type" />
+            </span>&nbsp;
+            <button pButton label="Clear" class="btn btn-outline-primary" icon="fa fa-minus-square-o" (click)="clear(dt1)"></button>
+        </div>
+    </ng-template>
+    
+        <ng-template pTemplate="header">
+            <tr>
+                <th>Image</th>
+                <th pSortableColumn="Name">Name<p-sortIcon field="Name"></p-sortIcon></th>
+
+                <!-- <th>Description</th> -->
+                <th pSortableColumn="Location">Location<p-sortIcon field="Location"></p-sortIcon></th>
+                <th pSortableColumn="PropertyType">PropertyType<p-sortIcon field="PropertyType"></p-sortIcon></th>
+                <!-- <th>HoldingType</th>
+                <th>OverallAreaInSft</th> -->
+                <!-- <th pSortableColumn="IsActive">IsActive <p-sortIcon field="IsActive"></p-sortIcon></th> -->
+                <!-- <th pSortableColumn="IsAvailableForInvesting">IsAvailableForInvesting <p-sortIcon field="IsAvailableForInvesting"></p-sortIcon></th> -->
+                <th >ListingTokenPrice</th>
+                <th >CurrentTokenPrice</th>
+                <th >TotalNumberOfTokens</th>
+                <th >AvailableNumberOfTokens</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-product>
+            <tr *ngIf="product.IsActive; else inActiveProperty" style="cursor: pointer;" (click)="onPropertyRowClick(product.PropertyID)">
+                <td><p-avatar image="./assets/Images/SamplePropertyPic.jpg" shape="circle" /></td>
+                <td>{{ product.Name }}</td>
+
+                <!-- <td>{{ product.Description }}</td> -->
+                <td>{{ product.Location }}</td>
+                <td>{{ product.PropertyType }}</td>
+                <!-- <td>{{ product.HoldingType }}</td>
+                <td>{{ product.OverallAreaInSft }}</td> -->
+                <!-- <td><p-tag [value]="product.IsActive" [severity]="getSeverity(product.IsActive)"></p-tag></td> -->
+                <!-- <td><p-tag [value]="product.IsAvailableForInvesting" [severity]="getSeverity(product.IsAvailableForInvesting)"></p-tag></td> -->
+                <td>{{ product.InitialTokenPrice | currency:'INR' }}</td>
+                <td>{{ product.CurrentTokenPrice | currency:'INR'}}</td>
+                <td>{{ product.CurrentTotalNumberOfTokens }}</td>
+                <td>{{ product.CurrentAvailableNumberOfTokens }}</td>
+            </tr>
+        <ng-template #inActiveProperty>
+            <tr style="background: rgb(255, 193, 77);" (click)="onPropertyRowClick(product.PropertyID)">
+                <td><a>{{ product.Name }}</a></td>
+                <!-- <td>{{ product.Description }}</td> -->
+                <td>{{ product.Location }}</td>
+                <td>{{ product.PropertyType }}</td>
+                <!-- <td>{{ product.HoldingType }}</td>
+                <td>{{ product.OverallAreaInSft }}</td> -->
+                <!-- <td><p-tag [value]="product.IsActive" [severity]="getSeverity(product.IsActive)"></p-tag></td> -->
+                <!-- <td><p-tag [value]="product.IsAvailableForInvesting" [severity]="getSeverity(product.IsAvailableForInvesting)"></p-tag></td> -->
+                <td>{{ product.InitialTokenPrice | currency:'INR' }}</td>
+                <td>{{ product.CurrentTokenPrice | currency:'INR'}}</td>
+                <td>{{ product.CurrentTotalNumberOfTokens }}</td>
+                <td>{{ product.CurrentAvailableNumberOfTokens }}</td>
+            </tr>
+        </ng-template>
+        </ng-template>
+        <!-- <ng-template pTemplate="paginatorleft">
+            <p-button type="button" icon="fa fa-plus" styleClass="p-button-text"></p-button>
+        </ng-template>
+        <ng-template pTemplate="paginatorright">
+            <p-button type="button" icon="pi pi-cloud" styleClass="p-button-text"></p-button>
+        </ng-template> -->
+
+    </p-table>
+    
+</div>
+</div>
+<br><br><br>
+<div ></div>
+
+

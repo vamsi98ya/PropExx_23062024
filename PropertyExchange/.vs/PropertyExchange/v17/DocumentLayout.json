@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\core\\propertyexchange.core.application\\usecases\\userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|solutionrelative:core\\propertyexchange.core.application\\usecases\\userusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F26466-35D5-4CCB-A577-E0DC7C075A90}|Infrastructure\\PropertyExchange.Infrastructure.Data\\PropertyExchange.Infrastructure.Data.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\infrastructure\\propertyexchange.infrastructure.data\\configurations\\propertyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F26466-35D5-4CCB-A577-E0DC7C075A90}|Infrastructure\\PropertyExchange.Infrastructure.Data\\PropertyExchange.Infrastructure.Data.csproj|solutionrelative:infrastructure\\propertyexchange.infrastructure.data\\configurations\\propertyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BFC26D0-D642-434D-9D54-4B7EBB0BB9E7}|Core\\PropertyExchange.Core.Domain\\PropertyExchange.Core.Domain.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\core\\propertyexchange.core.domain\\models\\property\\propertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BFC26D0-D642-434D-9D54-4B7EBB0BB9E7}|Core\\PropertyExchange.Core.Domain\\PropertyExchange.Core.Domain.csproj|solutionrelative:core\\propertyexchange.core.domain\\models\\property\\propertymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\core\\propertyexchange.core.application\\usecases\\tenantusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|solutionrelative:core\\propertyexchange.core.application\\usecases\\tenantusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F26466-35D5-4CCB-A577-E0DC7C075A90}|Infrastructure\\PropertyExchange.Infrastructure.Data\\PropertyExchange.Infrastructure.Data.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\infrastructure\\propertyexchange.infrastructure.data\\configurations\\userportfolioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F26466-35D5-4CCB-A577-E0DC7C075A90}|Infrastructure\\PropertyExchange.Infrastructure.Data\\PropertyExchange.Infrastructure.Data.csproj|solutionrelative:infrastructure\\propertyexchange.infrastructure.data\\configurations\\userportfolioconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F26466-35D5-4CCB-A577-E0DC7C075A90}|Infrastructure\\PropertyExchange.Infrastructure.Data\\PropertyExchange.Infrastructure.Data.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\infrastructure\\propertyexchange.infrastructure.data\\configurations\\userpassbookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F26466-35D5-4CCB-A577-E0DC7C075A90}|Infrastructure\\PropertyExchange.Infrastructure.Data\\PropertyExchange.Infrastructure.Data.csproj|solutionrelative:infrastructure\\propertyexchange.infrastructure.data\\configurations\\userpassbookconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\controllers\\tenantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0F26466-35D5-4CCB-A577-E0DC7C075A90}|Infrastructure\\PropertyExchange.Infrastructure.Data\\PropertyExchange.Infrastructure.Data.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\infrastructure\\propertyexchange.infrastructure.data\\repositories\\tenantrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0F26466-35D5-4CCB-A577-E0DC7C075A90}|Infrastructure\\PropertyExchange.Infrastructure.Data\\PropertyExchange.Infrastructure.Data.csproj|solutionrelative:infrastructure\\propertyexchange.infrastructure.data\\repositories\\tenantrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\core\\propertyexchange.core.application\\repositories\\itenantrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|solutionrelative:core\\propertyexchange.core.application\\repositories\\itenantrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\core\\propertyexchange.core.application\\contracts\\itenantusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|solutionrelative:core\\propertyexchange.core.application\\contracts\\itenantusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\models\\user\\userholdingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\models\\user\\userholdingvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\models\\user\\userpassbookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\models\\user\\userpassbookvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\models\\user\\userfunddetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\models\\user\\userfunddetailsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\models\\user\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\models\\user\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\models\\user\\userregistrationloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\models\\user\\userregistrationloginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\core\\propertyexchange.core.application\\contracts\\ipropertyusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|solutionrelative:core\\propertyexchange.core.application\\contracts\\ipropertyusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\core\\propertyexchange.core.application\\repositories\\ipropertyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A3FA67-0A06-477B-B321-E8AF0DA29B3A}|Core\\PropertyExchange.Core.Application\\PropertyExchange.Core.Application.csproj|solutionrelative:core\\propertyexchange.core.application\\repositories\\ipropertyrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|c:\\users\\imran ahmed\\source\\repos\\propertyexchange\\presentation\\propertyexchange.presentation.api\\models\\property\\propertyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583561B7-5E19-44CE-9490-82D5E6FE7863}|Presentation\\PropertyExchange.Presentation.API\\PropertyExchange.Presentation.API.csproj|solutionrelative:presentation\\propertyexchange.presentation.api\\models\\property\\propertyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\UseCases\\UserUseCase.cs",
+              "RelativeDocumentMoniker": "Core\\PropertyExchange.Core.Application\\UseCases\\UserUseCase.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\UseCases\\UserUseCase.cs",
+              "RelativeToolTip": "Core\\PropertyExchange.Core.Application\\UseCases\\UserUseCase.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAlwIcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T09:32:46.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PropertyModel.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Domain\\Models\\Property\\PropertyModel.cs",
+              "RelativeDocumentMoniker": "Core\\PropertyExchange.Core.Domain\\Models\\Property\\PropertyModel.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Domain\\Models\\Property\\PropertyModel.cs",
+              "RelativeToolTip": "Core\\PropertyExchange.Core.Domain\\Models\\Property\\PropertyModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T09:04:42.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TenantUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\UseCases\\TenantUseCase.cs",
+              "RelativeDocumentMoniker": "Core\\PropertyExchange.Core.Application\\UseCases\\TenantUseCase.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\UseCases\\TenantUseCase.cs",
+              "RelativeToolTip": "Core\\PropertyExchange.Core.Application\\UseCases\\TenantUseCase.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwBgAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:56:09.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITenantRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\Repositories\\ITenantRepo.cs",
+              "RelativeDocumentMoniker": "Core\\PropertyExchange.Core.Application\\Repositories\\ITenantRepo.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\Repositories\\ITenantRepo.cs",
+              "RelativeToolTip": "Core\\PropertyExchange.Core.Application\\Repositories\\ITenantRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:55:57.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITenantUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\Contracts\\ITenantUseCase.cs",
+              "RelativeDocumentMoniker": "Core\\PropertyExchange.Core.Application\\Contracts\\ITenantUseCase.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\Contracts\\ITenantUseCase.cs",
+              "RelativeToolTip": "Core\\PropertyExchange.Core.Application\\Contracts\\ITenantUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:55:20.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TenantController.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Controllers\\TenantController.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Controllers\\TenantController.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Controllers\\TenantController.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Controllers\\TenantController.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAqwCkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:54:32.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TenantRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Infrastructure\\PropertyExchange.Infrastructure.Data\\Repositories\\TenantRepo.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\PropertyExchange.Infrastructure.Data\\Repositories\\TenantRepo.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Infrastructure\\PropertyExchange.Infrastructure.Data\\Repositories\\TenantRepo.cs",
+              "RelativeToolTip": "Infrastructure\\PropertyExchange.Infrastructure.Data\\Repositories\\TenantRepo.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAAAKcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T08:00:47.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserPassbookVM.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserPassbookVM.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserPassbookVM.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserPassbookVM.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserPassbookVM.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA3wBIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T05:29:51.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserFundDetailsVM.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserFundDetailsVM.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserFundDetailsVM.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserFundDetailsVM.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserFundDetailsVM.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T05:29:05.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRegistrationLoginVM.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserRegistrationLoginVM.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserRegistrationLoginVM.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserRegistrationLoginVM.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserRegistrationLoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T05:26:37.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPropertyRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\Repositories\\IPropertyRepo.cs",
+              "RelativeDocumentMoniker": "Core\\PropertyExchange.Core.Application\\Repositories\\IPropertyRepo.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\Repositories\\IPropertyRepo.cs",
+              "RelativeToolTip": "Core\\PropertyExchange.Core.Application\\Repositories\\IPropertyRepo.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAxwBsAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:55:42.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPropertyUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\Contracts\\IPropertyUseCase.cs",
+              "RelativeDocumentMoniker": "Core\\PropertyExchange.Core.Application\\Contracts\\IPropertyUseCase.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Core\\PropertyExchange.Core.Application\\Contracts\\IPropertyUseCase.cs",
+              "RelativeToolTip": "Core\\PropertyExchange.Core.Application\\Contracts\\IPropertyUseCase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAlwBEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:54:09.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PropertyVM.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\Property\\PropertyVM.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Models\\Property\\PropertyVM.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\Property\\PropertyVM.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Models\\Property\\PropertyVM.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAA2wCcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:43:01.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\PropertyConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\PropertyConfiguration.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\PropertyConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\PropertyConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:42:22.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserPassbookConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\UserPassbookConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\UserPassbookConfiguration.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\UserPassbookConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\UserPassbookConfiguration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:42:00.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserVM.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserVM.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserVM.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserVM.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserVM.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wBcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:39:13.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserPortfolioConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\UserPortfolioConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\UserPortfolioConfiguration.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\UserPortfolioConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\PropertyExchange.Infrastructure.Data\\Configurations\\UserPortfolioConfiguration.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:08:14.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserHoldingVM.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserHoldingVM.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserHoldingVM.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserHoldingVM.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Models\\User\\UserHoldingVM.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:08:02.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Controllers\\PropertyController.cs",
+              "ViewState": "AQIAABUBAAAAAAAAAAAAAB4BAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T09:00:34.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Presentation\\PropertyExchange.Presentation.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Imran Ahmed\\source\\repos\\PropertyExchange\\Presentation\\PropertyExchange.Presentation.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Presentation\\PropertyExchange.Presentation.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAOsAAAAAAAAAAAD4v34AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T15:09:37.604Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

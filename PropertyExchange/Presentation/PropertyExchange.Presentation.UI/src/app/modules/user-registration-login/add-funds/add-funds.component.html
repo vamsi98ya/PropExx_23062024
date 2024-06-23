@@ -1,0 +1,157 @@
+<p-toast [breakpoints]="{'920px': {width: '100%', right: '0', left: '0'}}"></p-toast>
+
+<p-dialog header="Fund History" [(visible)]="popupVisible" [modal]="true" [style]="{ width: '60rem'}"
+    [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }">
+    @if(isUserFundsHistoryAvailable){
+    <p-table #dt1 [value]="userFunds" dataKey="id"  styleClass="p-datatable-striped" [tableStyle]="{ 'min-width': '50rem' }"
+    [resizableColumns]="true"
+    [paginator]="true"
+    [rows]="10"
+    [showCurrentPageReport]="true"
+    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>TxnNumber</th>
+                <th pSortableColumn="AddOrWithdraw">Txn Type<p-sortIcon field="AddOrWithdraw"></p-sortIcon></th>
+                <th pSortableColumn="TxnAmount">Txn Amount<p-sortIcon field="TxnAmount"></p-sortIcon></th>
+                <th >Mode Of Txn</th>
+                <th pSortableColumn="TxnDateTime">Txn Date<p-sortIcon field="PropertyType"></p-sortIcon></th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-product>
+            <tr *ngIf="isUserFundsHistoryAvailable" style="cursor: pointer;">
+                <td>{{ product.TxnNumber }}</td>
+                <td *ngIf="product.AddOrWithdraw == 'ADD'" style="color: green;">{{ product.AddOrWithdraw }}</td>
+                <td *ngIf="product.AddOrWithdraw == 'WITHDRAW'" style="color: #DC3545;">{{ product.AddOrWithdraw }}</td>
+                <td>{{ product.TxnAmount | currency:'INR' }}</td>
+               <td>{{ product.ModeOfTxn  }}</td>
+               <td>{{ product.TxnDateTime  }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+  }
+  @else{
+    <span style="display: inline-block;" style="color:red;">User does not have any transaction history.</span>
+  }
+</p-dialog>
+
+<p-dialog header="Ledger History" [(visible)]="ledgerPopupVisible" [modal]="true" [style]="{ width: '70rem'}"
+    [breakpoints]="{ '1199px': '75vw', '575px': '90vw' }">
+    @if(isUserLedgerHistoryAvailable){
+    <p-table #dt1 [value]="userPassbook" dataKey="id"  styleClass="p-datatable-striped" [tableStyle]="{ 'min-width': '50rem' }"
+    [resizableColumns]="true"
+    [paginator]="true"
+    [rows]="10"
+    [showCurrentPageReport]="true"
+    currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
+        <ng-template pTemplate="header">
+            <tr>
+                <th>TxnNumber</th>
+                <th pSortableColumn="PropertyID">Name<p-sortIcon field="PropertyID"></p-sortIcon></th>
+                <th pSortableColumn="TxnType">Txn Type<p-sortIcon field="TxnType"></p-sortIcon></th>
+                <th pSortableColumn="Quantity">Quantity<p-sortIcon field="Quantity"></p-sortIcon></th>
+                <th pSortableColumn="Price">Price<p-sortIcon field="Price"></p-sortIcon></th>
+                <th pSortableColumn="TotalTxnValue">TotalTxnValue<p-sortIcon field="TotalTxnValue"></p-sortIcon></th>
+                <th pSortableColumn="OrderDateTime">Txn Date<p-sortIcon field="OrderDateTime"></p-sortIcon></th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-product>
+            <tr *ngIf="isUserLedgerHistoryAvailable" style="cursor: pointer;">
+                <td>{{ product.TxnNumber }}</td>
+                <td>{{ product.PropertyID }}</td>
+                <td *ngIf="product.TxnType == 'BUY'" style="color: green;">{{ product.TxnType }}</td>
+                <td *ngIf="product.TxnType == 'SELL'" style="color: #DC3545;">{{ product.TxnType }}</td>
+                <td>{{ product.Quantity}}</td>
+                
+                <td>{{ product.Price | currency:'INR' }}</td>
+                <td>{{ product.TotalTxnValue | currency:'INR' }}</td>
+
+               <td>{{ product.OrderDateTime  }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+  }
+  @else{
+    <span style="display: inline-block;" style="color:red;">User does not have any trade history.</span>
+  }
+</p-dialog>
+
+
+<article class="card-body row">
+    <div class="col-md-4"></div>
+    <form class="col-md-4" [formGroup]="fundsForm" >
+        @if(doesUserDetailsExist){
+        <div class="row">
+            <div class="" style="display: inline-block;">
+                 Available for Investing :  {{ amountAvailableForInvesting | currency: 'INR' }} 
+            </div>
+            <br>
+            <br>
+            <div class="form-group" style="display: inline-block;">
+                <label>Add Money</label>
+                <input type="number" formControlName="Money" class="form-control border-primary input-line"
+                    [ngClass]="{ 'is-invalid': submitted && a['Money'].errors }" [(ngModel)]="moneyAdded" />
+                <div *ngIf="submitted && a['Money'].errors" class="invalid-feedback">
+                    <div *ngIf="a['Money'].errors['required']">Please enter a valid amount</div>
+                    <div *ngIf="a['Money'].errors['pattern']">
+                        Please enter a valid amount in number
+                      </div>
+                </div>
+                @if(exceededWithdrawAmount){
+                    <small style="display: inline-block;" style="color: #DC3545">
+                   Max withdrawal amount : {{ amountAvailableForInvesting | currency: 'INR' }}
+                    </small>
+                  }
+            </div>
+           
+<!-- <small style="display: inline-block;" style="color: red;">Enetered amount exceeded the available amount</small> -->
+            <!-- <div class="form-group" style="display: inline-block;">
+            <label>Mode of Payment</label>
+            @if(doesUserDetailsExist){
+            <input type="text" formControlName="AddMoney" class="form-control border-primary"
+              [ngClass]="{ 'is-invalid': submitted && a['AddMoney'].errors }" readonly />
+            <div *ngIf="submitted && a['AddMoney'].errors" class="invalid-feedback">
+              <div *ngIf="a['AddMoney'].errors['required']">Money is required</div>
+            </div>
+            }
+            @else{
+            <input type="text" formControlName="AddMoney" class="form-control border-primary"
+              [ngClass]="{ 'is-invalid': submitted && a['AddMoney'].errors }" />
+            <div *ngIf="submitted && a['AddMoney'].errors" class="invalid-feedback">
+              <div *ngIf="a['AddMoney'].errors['required']">Money is required</div>
+            </div>
+            }
+          </div> -->
+
+        </div>
+        <div class="text-center" role="group">
+          <button type="button" (click)="onAddFundsButtonClick(5000)" class="btn btn-sm btn-outline-secondary">+5000</button>&nbsp;
+          <button type="button" (click)="onAddFundsButtonClick(10000)" class="btn btn-sm btn-outline-secondary">+10000</button>&nbsp;
+          <button type="button" (click)="onAddFundsButtonClick(25000)" class="btn btn-sm btn-outline-secondary">+25000</button>
+        </div>
+        <br>
+        <div class="form-group">
+            <div class="text-center">
+                <button id="addButton" class="btn bg-primary text-white mr-1" type="submit" (click)="onSubmit('ADD')">
+                    Add Money
+                </button>
+                <button id="withdrawButton" class="btn btn-secondary" type="submit" (click)="onSubmit('WITHDRAW')">
+                    Withdraw Money
+                </button>
+            </div>
+        </div>
+    }
+    @else{
+        <span style="display: inline-block;" style="color: red;">Please complete your registration process by filling in the personal details section below.</span>
+    }
+    </form>
+    <div class="col-md-4">
+      <button  class="btn btn-outline-secondary float-right" style="padding: 5px 10px; font-size: 14px; margin-left: 1%;" (click)="showLedgerHistory()">
+        <i class="fa fa-history" aria-hidden="true"></i> Ledger History
+      </button>
+
+      <button  class="btn btn-outline-secondary float-right" style="padding: 5px 10px; font-size: 14px" (click)="showFundsHistory()">
+        <i class="fa fa-history" aria-hidden="true"></i> Fund History
+      </button>
+    </div>
+</article>

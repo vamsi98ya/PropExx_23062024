@@ -1,0 +1,10 @@
+.box{
+    border-radius: 15px;
+}
+
+.fixed-column {
+    position: sticky;
+    left: 0;
+    background-color: white; 
+    z-index: 1; 
+  }

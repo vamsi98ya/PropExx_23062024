@@ -1,0 +1,15 @@
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\bin\Debug\net8.0\PropertyExchange.Core.Domain.deps.json
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\bin\Debug\net8.0\PropertyExchange.Core.Domain.runtimeconfig.json
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\bin\Debug\net8.0\PropertyExchange.Core.Domain.dll
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\bin\Debug\net8.0\PropertyExchange.Core.Domain.pdb
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.AssemblyInfo.cs
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.dll
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\refint\PropertyExchange.Core.Domain.dll
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.pdb
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.genruntimeconfig.cache
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\ref\PropertyExchange.Core.Domain.dll
+C:\Users\Imran Ahmed\source\repos\PropertyExchange\Core\PropertyExchange.Core.Domain\obj\Debug\net8.0\PropertyExchange.Core.Domain.sourcelink.json

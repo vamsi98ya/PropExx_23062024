@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\PropertyExchange.Presentation.API.props" />
+</Project>

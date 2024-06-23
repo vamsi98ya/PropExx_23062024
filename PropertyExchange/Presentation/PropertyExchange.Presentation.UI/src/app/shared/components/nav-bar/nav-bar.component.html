@@ -1,0 +1,122 @@
+<nav class="navbar navbar-dark bg-primary">
+  <!-- Navbar content -->
+</nav>
+<nav class="navbar navbar-dark bg-primary navbar-expand-lg py-1  fixed-top">
+  <strong> <a class="navbar-brand" href="#"> <i>
+      <!-- <img src="../../assets/images/proarchpng.png" height="50px" alt="PE" /> -->
+      &nbsp;&nbsp;PropExx</i>
+    </a></strong>
+    <a class="nav-link text-white" [routerLink]="['Properties/All-Properties']" routerLinkActive="router-link-active"><b>Properties</b>
+    </a> &nbsp; &nbsp;
+    @if(authService.currentUserValue)
+    {
+    <a class="nav-link text-white" [routerLink]="['Live-Trades/Orders']" routerLinkActive="router-link-active"><b>Live-Trades</b>
+    </a> &nbsp; &nbsp;
+  }
+    <a class="nav-link text-white" [routerLink]="['Home/AboutUs']" routerLinkActive="router-link-active"><b>About Us</b>
+    </a>
+
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <!-- <a class="nav-link" [routerLink]="['Properties/All-Properties']" routerLinkActive="router-link-active"><b>Properties</b>
+      </a> -->
+    </li>
+    <li class="nav-item active">
+      <!-- <a class="nav-link" [routerLink]="['Home/AboutUs']" routerLinkActive="router-link-active"><b>About Us</b>
+      </a> -->
+    </li>
+  </ul>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <span class="navbar-text">
+      <ul class="navbar-nav mr-auto">
+        <!-- *ngIf="!authService.currentUserValue" -->
+        <li class="nav-item" *ngIf="!authService.currentUserValue">
+          <a class="nav-link" [routerLink]="['/AuthenticateUser/Register']"
+            routerLinkActive="router-link-active"><b>Sign Up</b>
+          </a>
+        </li>
+        <li class="nav-item" *ngIf="!authService.currentUserValue">
+          <a class="nav-link" [routerLink]="['/AuthenticateUser/Login']" routerLinkActive="router-link-active">
+            <b>Login</b>
+          </a>
+        </li>
+        <li class="nav-item" *ngIf="authService.currentUserValue">
+          <a class="nav-link active" style="cursor: pointer;" [routerLink]="['/AuthenticateUser/UserDetails']" routerLinkActive="router-link-active">
+            <b>Profile</b>
+          </a> 
+        </li>
+        <li class="nav-item" *ngIf="authService.currentUserValue">
+          <a class="nav-link" style="cursor: pointer;" (click)="customLogOut()" routerLinkActive="router-link-active">
+            <b>LogOut</b>
+          </a>
+          <!-- <a href="{{generateCustomLink(data)}}" target="_blank"></a> -->
+        </li>
+      </ul>
+    </span>
+  </div>
+</nav>
+
+
+
+<!-- Data -->
+<!-- <nav
+    class="navbar navbar-expand-lg navbar-light text-dark bg-warning fixed-top"
+  >
+    <a class="navbar-brand" href="#"><b>NDTC</b></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarText"
+      aria-controls="navbarText"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [routerLink]="['/reg']"
+            routerLinkActive="router-link-active"
+            >Sign Up</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [routerLink]="['/login']"
+            routerLinkActive="router-link-active"
+            >Login</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            [routerLink]="['/payment']"
+            routerLinkActive="router-link-active"
+            >Payment</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Navbar text with an inline element
+      </span>
+    </div>
+  </nav> -->
